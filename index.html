@@ -47,7 +47,7 @@
             <div id="ingredienti" class="col Egg">
                 <input type="checkbox" name="" id="check-num3" class="somma-check" value="5">
                 <img class="ingredienti" src="img/fried-egg.svg" alt="">
-                <label style="font-size: small" for="check-num3">Fried Egg</label>
+                <label style="font-size: 15px" for="check-num3">Fried Egg</label>
             </div>
         </div>
         <div class="row p-2">
@@ -81,14 +81,14 @@
                 <h2>Codice sconto :</h2>
             </div>
             <div class="col col-6 text-center">
-                <input class="mt-2" type="text">
+                <input id="discount" class="mt-2" type="text" value="">
             </div>
         </div>
     </di>
     <div" class="container">
         <div class="row">
             <div class="col text-center p-3">
-                <button id="somma-button">Calcola il prezzo del tuo hamburger </button>
+                <button class="p-2" style="border-radius: 100px;" id="somma-button">Calcola il prezzo del tuo hamburger </button>
             </div>
         </div>
     </div>
@@ -99,40 +99,13 @@
                 <h1 style="color: white;">Totale :</h1>
             </div>
             <div class="col text-center p-3">
-                <h1 style="display: inline-block; color: white;" id="result-sum">€</h1>
+                <h1 style="display: inline-block; color: white;" id="result-sum"><span id="price"></span></h1>
                 <h6 style="color: white;">(il panino base parte da 10€)</h6>
             </div>
         </div>
 
     </div>
-    <!-- <form>
 
-
-        <input type="checkbox" name="" id="check-num2" class="somma-check" value="5">
-        <label for="check-num2">Cheese</label>
-
-        <input type="checkbox" name="" id="check-num3" class="somma-check" value="5">
-        <label for="check-num3">Egg</label>
-
-        <input type="checkbox" name="" id="check-num3" class="somma-check" value="5">
-        <label for="check-num3">Mustard</label>
-
-        <input type="checkbox" name="" id="check-num3" class="somma-check" value="5">
-        <label for="check-num3">Tomato</label>
-
-        <input type="checkbox" name="" id="check-num3" class="somma-check" value="5">
-        <label for="check-num3">Lettuce</label>
-
-        <input type="checkbox" name="" id="check-num3" class="somma-check" value="5">
-        <label for="check-num3">Ketchup</label>
-
-    </form>
-
-    <button id="somma-button">Calculate</button>
-
-    <div>
-        IL RISULTATO E' <div style="display: inline-block;" id="result-sum"></div>
-    </div> -->
     <script src="js/script.js"></script>
 </body>
 </html>
