@@ -1,4 +1,4 @@
-alert("Per un codice sconto,inserisci un nome al");
+alert("Per un codice sconto,inserisci un nome al tuo burger!");
 
 var createSum = document.getElementById('somma-button');
 
