@@ -21,8 +21,8 @@ createSum.addEventListener('click', function() {
              resultSumInt += parseInt (checkNum[i].value);
 
         }
-    } if (userCoupon.value.length === 6){
-        document.getElementById('price').innerHTML =  " € "  + parseInt(resultSumInt - 20 / 100).toFixed(2);
+    } if (userCoupon.value.length === 3){
+        document.getElementById('price').innerHTML =  " € "  + parseInt(resultSumInt - resultSumInt / 100 * 20).toFixed(2);
     } else{
         document.getElementById('price').innerHTML =  " € "  +  resultSumInt.toFixed(2);  
 
