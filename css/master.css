@@ -1,0 +1,10 @@
+
+.ingredienti {
+    width: 60px;
+}
+.burger {
+    width: 140px;
+}
+.hamburger {
+    transform: rotate(45deg);
+}
